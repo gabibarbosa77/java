@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class exer4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Entre com a senha: ");
+        String senha = sc.nextLine();
+
+        if(senha.equals("Java2026")){
+            System.out.println("Senha válida!");
+        }else{
+            System.out.println("Senha inválida!");
+        }
+
+        sc.close();
+    }
+}
